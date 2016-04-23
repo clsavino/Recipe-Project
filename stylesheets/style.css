@@ -1,8 +1,12 @@
-.header {background-color: #2879d0;
+.header {
+        /*background-color: #2879d0; */
+        background-color: #cc6633;
         color: #000099;
 }
 nav {
-        background-color: lightsteelblue;
+        
+        /*background-color: lightsteelblue;*/
+        background-color: #2879d0;
 }
 nav li {
         color: #2879d0;
@@ -10,7 +14,8 @@ nav li {
         font-size: 1.2rem;
 }
 h2 {
-        background-color: lightsteelblue;
+        /*background-color: lightsteelblue;*/
+        background-color: cccc33;
         text-align: center;
         color: #2879d0;
 }
