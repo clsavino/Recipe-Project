@@ -12,11 +12,14 @@ nav li a {
     line-height: 1.5rem;    
 }
 
-div {margin: 40px;
+div {
+    margin: 40px;
 }
-h2, h3 {text-align:left;
+h2, h3 {
+    text-align:left;
     margin:40px;
 }
-h2 { padding:20px;
+h2 {
+    padding:20px;
     width: 100px;
 }
