@@ -1,21 +1,23 @@
 .header {background-color: #2879d0;
-color: #000099;
+        color: #000099;
 }
-nav {background-color: lightsteelblue;
+nav {
+        background-color: lightsteelblue;
 }
 nav li {
         color: #2879d0;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.2em;
 }
-h2 {background-color: lightsteelblue;
-    text-align: left;
-    color: #2879d0;
+h2 {
+        background-color: lightsteelblue;
+        text-align: left;
+        color: #2879d0;
 }
 a {
-    color: #2879d0;
-    text-decoration: none;
+        color: #2879d0;
+        text-decoration: none;
 }
 div a {
-    font-size: 1.2rem;
+        font-size: 1.2em;
 }
