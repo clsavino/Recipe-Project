@@ -7,11 +7,11 @@ nav {
 nav li {
         color: #2879d0;
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 1.2rem;
 }
 h2 {
         background-color: lightsteelblue;
-        text-align: left;
+        text-align: center;
         color: #2879d0;
 }
 a {
@@ -19,5 +19,5 @@ a {
         text-decoration: none;
 }
 div a {
-        font-size: 1.2em;
+        font-size: 1.2rem;
 }
