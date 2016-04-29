@@ -1,19 +1,33 @@
 .header {
-    background-color: #4caf50;
+    background-color: #e0ffff;
     color: #000099;
 }
-nav {
-    background-color: #4caf50;
+nav ul li {
+    background-color: #e0ffff;
+
 }
 nav li {
-    color: #4caf50;
+    color: #000099;
     font-weight: bold;
     font-size: 1.2rem;
 }
+/*
+nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+*/
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
 h2 {
-    background-color: #4caf50;
+    background-color: #e0ffff;
     text-align: center;
     color: #000099;
+}
+h3 {
+    text-align: left;
 }
 a {
     color: #000099;
