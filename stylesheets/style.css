@@ -1,10 +1,19 @@
+body {
+    background-color: lightsteelblue;
+    
+}
 .header {
     background-color: #e0ffff;
     color: #000099;
+    text-align: center;
+    border: 2px solid #000099;
+    border-radius:5px;   
 }
 nav ul li {
     background-color: #e0ffff;
-
+    border: 2px solid #000099;
+    border-radius: 5px;
+    /*background-color: #e0ffff;*/
 }
 nav li {
     color: #000099;
@@ -21,13 +30,22 @@ nav li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+/*
+#entrees, #sides, #desserts {
+    background-color: white;
+}
+*/
+
 h2 {
     background-color: #e0ffff;
     text-align: center;
     color: #000099;
+    border: 2px solid #000099;
+    border-radius: 5px;
 }
 h3 {
     text-align: left;
+    font-style: italic;
 }
 a {
     color: #000099;
