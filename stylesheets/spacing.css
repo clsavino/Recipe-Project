@@ -7,16 +7,16 @@ body {
    /* margin:20px; */
     padding:10px;
     width: 1000px;
-    text-align: center;
-    border: 2px solid #000099;
+    margin-left: 50px;
 }
 
 /* Code from CSS Navbar*/
 nav ul {
     list-style-type: none;
     margin: 0;
+    margin-left: 50px;
     padding: 0;
-    width: 15%;
+    width: 10%;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -25,8 +25,7 @@ nav ul {
 /* new li color*/
 nav ul li {
     margin: 1px;
-    border: 2px solid #000099;
-    /*background-color: #e0ffff;*/
+
 }
 
 nav li a {
@@ -48,28 +47,33 @@ nav li a:hover:not(.active) {
 */
 
 /*End of code from CSS Nav Bars*/
-
+#entrees, #sides, #desserts {
+    width: 700px;
+    padding-left: 40px;
+    /*margin-bottom: 20px;*/
+    /*border: 2px solid black;*/
+    /*border-radius: 10px;*/
+}
 img {
     height: 150px;
-    padding: 2px;
+    padding: 5px;
     border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
 }
+    
 div {
-    margin-left:20%;
+    margin-left:15%;
     padding:1px 16px;
     height:1000px;
+    width: 700px;
 }
-h2, h3 {
-    text-align:center;
-   /* margin:40px;*/
-}
+
 h2 { 
     padding:10px;
     width: 200px;
-    border: 2px solid #000099;
 }
 h3 {
-    text-align:left;
     margin: 40;
 }
 
